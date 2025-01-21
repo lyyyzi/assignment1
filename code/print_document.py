@@ -5,8 +5,8 @@ a processed file.
 The program will be run from the root of the repository.
 '''
 
-import os
 import sys
+import os
 
 
 # Suggestion: keep the documents in a dictionary, using the ID as the key

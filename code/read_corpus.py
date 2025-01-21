@@ -48,7 +48,7 @@ def write_documents(collection):
     Writes the `documents` dictionary to the processed folder
     in a tab-separated format: <docID>\t<docContent>.
     '''
-    processed_file = f'./processed/{collection}.json'
+    processed_file = f'./processed/{collection}_document.json'
 
     # Check if processed file already exists
     if os.path.exists(processed_file):
